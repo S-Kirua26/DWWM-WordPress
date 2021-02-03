@@ -1,0 +1,77 @@
+/* Theme Name: ThemeNuage 
+Author: Steeven Gheeraert
+Description: Petit theme sur les nuages */
+
+header, body{
+    margin: 0;
+}
+
+body,header,footer,a{
+    display: flex;
+    flex: 1;
+}
+
+body{
+    flex-direction: column;
+}
+
+.espace{
+    flex: 1;
+}
+
+a{
+    color: yellowgreen;
+}
+
+.centre{
+    justify-content: center;
+    align-items: center;
+}
+
+.colonne{
+    flex-direction: column;
+}
+
+.row{
+    flex-direction: row;
+}
+
+.header,footer { 
+    background: #b91b35; 
+} 
+
+footer{
+    justify-content: center;
+    align-items: center;
+    color: greenyellow;
+}
+
+#navigation-principale li { 
+    position: relative; 
+    display: inline-block; 
+    padding: 10px; 
+    font-weight: 500; 
+} 
+
+#navigation-principale{
+    font-size: 3em;
+    color: green;
+    display: flex;
+}
+
+#menu-les-nuages{
+    flex-direction: row;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+
+#navigation-principale li a { 
+    color: #fff; 
+}
+
+.size{
+    font-size: 1.5em;
+}
+
