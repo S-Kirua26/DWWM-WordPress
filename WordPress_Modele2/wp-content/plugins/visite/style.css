@@ -1,0 +1,22 @@
+.colonne{
+    display: flex;
+    flex-direction: column;
+}
+
+.invisible{
+    display: none;
+}
+
+#carte{
+    display: flex;
+    flex:1;
+}
+
+.image{
+    display: flex;
+    flex:0.5;
+}
+
+img{
+    width: 100%;
+}
